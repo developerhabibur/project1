@@ -1,0 +1,217 @@
+   
+    body{
+      font-family: rubik,sans-serif,oswald;
+    }
+    .border-left-3px{
+        border-left: 3px solid #08d665;
+        line-height: 30px;
+    }
+    .border-green{
+      border: 1px solid #08d665;
+    }
+    .card{
+      transition: 1s;
+      overflow: hidden;
+      z-index: 99!important;
+      box-shadow: 1px 39px 38px #d2d2d2;
+    } 
+    .font-14px{
+      font-size: 14px;
+    }
+    .down-text{
+      color: rgb(223 223 223 / 42%)!important;
+      top: -41px!important;
+    }
+    .iconwh-50{
+      width: 50px;
+      height: 50px;
+    }
+/* Mainmenu Css  start */
+      #mainmenu .active{
+        border-bottom: 1px solid #08d665;
+      }
+      #mainmenu .menu a:hover{
+        border-bottom: 1px solid #08d665;
+      }
+/* ======main menu Css end =======*/
+/* ======Home Css start =======*/
+    .home-content h1{
+      letter-spacing: -4px;
+    }
+   #home .mod-btn1:hover{
+     background-color: black;
+     transition: 1s;
+   }
+   .icon1{
+    padding: 2px 10px;
+   }
+   #home .home-img{
+     right: 5%;
+   }
+/* ======Home Css end =======*/
+/* =========service part css start ========*/
+      /* service-section1 & include payment card css */
+      
+      #service-section1 img,
+      #payment img{
+        height: 87px;
+      }
+      #service-section1 .card:hover p,
+      #payment .card:hover p{
+        color: white!important;
+      }
+      #service .icon{
+        right: -5%;
+        bottom: 10%;
+      }
+      #service-section1 .card:hover .icon{
+        transition: 1.5s;
+        transform: scale(20);
+        z-index: -11;
+        background-image: linear-gradient(to left,#9af0a8 25%,#08d665 25%,#9af0a8 12%,#08d665 45%);
+      }
+      /* servcie section3 css */
+      #service-section3 .number{
+        bottom: -13px;
+        color: #d4eeed;
+      }
+      #service-section3 .card:hover h4{
+        color: #08d665;
+        transition: .8s;
+      }
+       #service .icon2{
+        left: 5%;
+        top: 10%;
+        background-color: rgb(221, 237, 240);
+      }
+      #service-section3 .card:hover .icon2{
+        transition: 1.5s;
+        transform: scale(20);
+        background-color: rgb(221, 237, 240);
+      }
+/* =========service part css end========*/
+/* =======project part css start======= */
+	  #owlcarousel2 .card:hover .card-img-overlay{
+        opacity:1!important;
+        transition: 1s;
+      }
+
+/* =======proect part end====== */
+ /* TESTIMONIALS part css start */
+      .carousel-icon i{
+        padding: 9px 2px!important;
+      }
+      .carousel-icon:hover{
+        background-color: #08d665;
+        color: white!important;
+      }
+      #testimonils #carouselControls1 .img1{
+      height: 180px;
+      }
+/*======= TESTIMONIALS css End=============*/
+ /* ====portfolio css=== */
+      #portfolio{
+        background-color: rgb(204, 247, 207);
+      }
+/* ========portfoilo css end======= */
+/*========== PAYMENT part css start ======*/
+      #payment .card:hover{
+        background-color: #049746;
+        color: white!important;
+        transition: .5s;
+      }
+      #payment .card:hover hr{
+        background-color: #fff;
+      }
+      #payment .card{
+        background-color: rgb(245, 245, 245);
+      }
+ /* ===========PAYMENT css end ==========*/
+/*====== BLOGS part css start============= */
+      #blog .card:hover h4{
+        color: #08d665!important;
+        transition: .5s;
+      }
+      #blog .read1:hover .read2{
+        transform: translateX(10px);
+        transition: .5s;
+      }
+/*=========== BLOGS css End==========*/
+/*====== NEws part css start============= */
+    #news{
+      background-image: url(../images/world-map.svg),radial-gradient(#dddada9d, transparent);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    #news .sub:hover{
+      background-color:rgb(255 255 255 / 68%);
+      color:#08d665!important ;
+	  }
+	  #news img{
+		height:228px!important;
+	  }
+    #news .img-hover{
+      transform: translateX(-100%)!important;
+    }
+    #news .col-md:hover .img-hover{
+      transform: translateX(0)!important;
+      visibility: visible;
+      transition: .5s;
+    }
+/*=========== NEws css End==========*/
+  /* =====Footer Css start====  */
+    #footer{
+      background-image: url(../images/footer-bg.png);
+    }
+      #footer .col-md:hover img{
+        filter: grayscale(0);
+        transition: .5s;
+        cursor: move;
+      }
+      #footer li:hover a{
+        color:#08d665!important;
+      }
+  /*  =====Footer Css end==== */
+    /* scroll to top */
+    #upper {
+        right: 5%;
+        bottom: 25px;
+    }
+    #upper:hover {
+      background-color: #fff;
+    }
+    #upper:hover i{
+      color: #08d665!important;
+    }
+    /*end scroll to top css*/
+
+/* ===========Media part=========== */
+@media(max-width:1200px){
+	#navbarSupportedContent img, 
+	#navbarSupportedContent span{
+		display:none;
+	}
+}
+  @media(max-width:1100px) {
+    #mainmenu .logo{
+      padding-right: 20px!important;
+    }
+	
+  }
+  @media(max-width:992px){
+    #home img{
+      display: none;
+    }
+    .home-content{
+      padding-bottom: 100px;
+      padding-top: 100px;
+    }
+  }
+  @media(max-width:768px){
+	 #news img{
+		 min-height:350px;
+	 }
+	 #navbarSupportedContent span{
+		display:block;
+	}
+  }
